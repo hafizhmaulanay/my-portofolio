@@ -10,6 +10,10 @@
 
     .landing-subtitle {
         font-size: 20px;
+
+        @include media-breakpoint-down(md) {
+            font-size: 18px;
+        }
     }
 
     .btn-portofolio {
@@ -49,7 +53,7 @@
     }
 
     .social-media {
-        margin-left: 48px;
+        margin-left: 40px;
 
         @include media-breakpoint-down(md) {
             margin-top: 60px;

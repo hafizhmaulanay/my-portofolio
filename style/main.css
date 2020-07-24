@@ -10968,6 +10968,12 @@ footer .footer-content ul li:last-child {
   font-size: 20px;
 }
 
+@media (max-width: 991.98px) {
+  .landing-page .landing-subtitle {
+    font-size: 18px;
+  }
+}
+
 .landing-page .btn-portofolio {
   background-color: #FFFFFF;
   border-radius: 40px;
@@ -11009,7 +11015,7 @@ footer .footer-content ul li:last-child {
 }
 
 .landing-page .social-media {
-  margin-left: 48px;
+  margin-left: 40px;
 }
 
 @media (max-width: 991.98px) {
@@ -11039,7 +11045,7 @@ footer .footer-content ul li:last-child {
 
 @media (max-width: 991.98px) {
   .about img {
-    max-width: 320px;
+    max-width: 300px;
   }
 }
 
@@ -11080,6 +11086,13 @@ footer .footer-content ul li:last-child {
 
 .about .card .card-body .card-qoute {
   font-size: 12px;
+}
+
+@media (max-width: 991.98px) {
+  .about .card .card-body .card-qoute {
+    text-align: right !important;
+    font-size: 10px;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -11344,6 +11357,12 @@ footer .footer-content ul li:last-child {
 
 .contact {
   margin-top: 450px;
+}
+
+@media (max-width: 991.98px) {
+  .contact {
+    margin-top: 600px;
+  }
 }
 
 .contact h5 {
