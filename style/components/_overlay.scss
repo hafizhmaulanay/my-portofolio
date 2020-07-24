@@ -1,0 +1,76 @@
+.overlay {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0);
+    z-index: 9999;
+    transition: .8s;
+    text-align: center;
+    padding: 100px 0;
+
+    &:target {
+        width: auto;
+        height: auto;
+        bottom: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.7);
+
+        img {
+            animation: zoomDanFade 1s;
+        }
+
+        .close {
+            animation: slideDownFade .5s .5s forwards;
+        }
+    }
+
+    .close {
+        position: absolute;
+        top: 80px;
+        right: 370px;
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+        background-color: black;
+        border-radius: 50%;
+        opacity: 0;
+
+        &.active {
+            top: 0;
+            left: 0;
+        }
+    }
+
+    img {
+        max-height: 100%;
+        box-shadow: 2px 2px 7px rgba(0, 0, 0, .5);
+
+    }
+}
+
+@keyframes zoomDanFade {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes slideDownFade {
+    0% {
+        opacity: 0;
+        margin-top: -20px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 0;
+    }
+}

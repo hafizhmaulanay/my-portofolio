@@ -1,0 +1,7 @@
+<svg id="icon_arrow_kanan" data-name="icon arrow kanan" xmlns="http://www.w3.org/2000/svg" width="30" height="29" viewBox="0 0 30 29">
+  <g id="Ellipse_3" data-name="Ellipse 3" fill="none" stroke="#005574" stroke-width="2">
+    <ellipse cx="15" cy="14.5" rx="15" ry="14.5" stroke="none"/>
+    <ellipse cx="15" cy="14.5" rx="14" ry="13.5" fill="none"/>
+  </g>
+  <path id="Path_4" data-name="Path 4" d="M1498.053,1248.777l8.873,5.774-8.873,5.493" transform="translate(-1486.665 -1240.384)" fill="none" stroke="#005574" stroke-linecap="round" stroke-width="2"/>
+</svg>

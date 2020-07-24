@@ -1,0 +1,70 @@
+.landing-page {
+    .landing-title {
+        font-weight: bold;
+        font-size: 40px;
+
+        span {
+            color: #3CA9C8;
+        }
+    }
+
+    .landing-subtitle {
+        font-size: 20px;
+    }
+
+    .btn-portofolio {
+
+        @include media-breakpoint-down(md) {
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        background-color: #FFFFFF;
+        border-radius: 40px;
+        color: #171717;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+
+        &:hover {
+            border: 1px solid #9b9b9b;
+        }
+    }
+
+    .btn-hire {
+
+        @include media-breakpoint-down(md) {
+            display: block;
+        }
+
+        background-color: #118CC8;
+        border-radius: 40px;
+        color: #FFFFFF;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+
+        &:hover {
+            background-color: #FFFFFF;
+            border: 1px solid #118CC8;
+            color: #118CC8;
+        }
+    }
+
+    .social-media {
+        margin-left: 48px;
+
+        @include media-breakpoint-down(md) {
+            margin-top: 60px;
+            margin-left: 100px;
+        }
+
+        .icon-sosmed {
+            margin-right: 40px;
+            transition: all 0.3s ease;
+
+            &:hover {
+                transform: scale(1.1);
+                filter: grayscale(1);
+            }
+        }
+    }
+
+
+}
