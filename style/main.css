@@ -10980,6 +10980,7 @@ footer .footer-content ul li:last-child {
   .landing-page .btn-portofolio {
     display: block;
     margin-bottom: 20px;
+    margin-right: 0 !important;
   }
 }
 
@@ -11014,7 +11015,7 @@ footer .footer-content ul li:last-child {
 @media (max-width: 991.98px) {
   .landing-page .social-media {
     margin-top: 60px;
-    margin-left: 100px;
+    margin-left: 40px;
   }
 }
 
@@ -11034,6 +11035,12 @@ footer .footer-content ul li:last-child {
 .about {
   background-color: #F5F5F5;
   height: 350px;
+}
+
+@media (max-width: 991.98px) {
+  .about img {
+    max-width: 320px;
+  }
 }
 
 .about .card {

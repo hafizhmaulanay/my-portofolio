@@ -17,6 +17,7 @@
         @include media-breakpoint-down(md) {
             display: block;
             margin-bottom: 20px;
+            margin-right: 0 !important;
         }
 
         background-color: #FFFFFF;
@@ -52,7 +53,7 @@
 
         @include media-breakpoint-down(md) {
             margin-top: 60px;
-            margin-left: 100px;
+            margin-left: 40px;
         }
 
         .icon-sosmed {

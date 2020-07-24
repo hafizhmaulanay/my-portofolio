@@ -2,6 +2,12 @@
     background-color: #F5F5F5;
     height: 350px;
 
+    @include media-breakpoint-down(md) {
+        img {
+            max-width: 320px;
+        }
+    }
+
     .card {
         overflow: hidden;
         position: relative;
