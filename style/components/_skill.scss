@@ -1,0 +1,45 @@
+.skills {
+    margin-top: 350px;
+
+    @include media-breakpoint-down(md) {
+        margin-top: 700px;
+    }
+
+    .heading-text {
+        margin: 10px 0;
+    }
+
+    .profesional {
+        margin-top: 100px;
+
+        @include media-breakpoint-down(md) {
+            margin-top: 50px;
+        }
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+
+    .language {
+        margin-bottom: 20px;
+    }
+
+    .section-language {
+        margin-top: 200px;
+    }
+
+    .container-language {
+        margin-bottom: 40px;
+
+        .language-image {
+            img {
+                max-height: 70px;
+            }
+        }
+
+        .language-text {
+            font-size: 14px;
+        }
+    }
+}

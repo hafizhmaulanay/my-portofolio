@@ -1,4 +1,4 @@
-.skills {
+.services {
     margin-top: 250px;
     width: 100%;
     min-height: 1200px;
@@ -9,10 +9,8 @@
 
     background-image: url(/images/bg-programmer.svg);
     background-size: cover;
-    padding: 115px 0 10px 0;
 
     @include media-breakpoint-down(md) {
-        margin-top: 600px;
         margin-bottom: 150px;
         background: none;
     }

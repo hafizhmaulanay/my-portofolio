@@ -10821,7 +10821,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 section {
@@ -10833,7 +10833,7 @@ h5 {
   font-family: "Lora", sans-serif;
   font-weight: bold;
   font-size: 28px;
-  color: #39A0C1;
+  color: #39a0c1;
 }
 
 .page-content {
@@ -10860,7 +10860,7 @@ footer {
 @media (max-width: 991.98px) {
   footer {
     background-image: none;
-    background-color: #363FFF;
+    background-color: #363fff;
     padding: 20px 0 10px 0;
   }
   footer .footer-title {
@@ -10873,7 +10873,7 @@ footer .footer-content {
 }
 
 footer .footer-content p {
-  color: #F8F8F8;
+  color: #f8f8f8;
   border-top: 1px solid #a36cbd;
 }
 
@@ -11101,7 +11101,7 @@ footer .footer-content ul li:last-child {
   }
 }
 
-.skills {
+.services {
   margin-top: 250px;
   width: 100%;
   min-height: 1200px;
@@ -11110,18 +11110,16 @@ footer .footer-content ul li:last-child {
   margin-bottom: 0;
   background-image: url(/images/bg-programmer.svg);
   background-size: cover;
-  padding: 115px 0 10px 0;
 }
 
 @media (max-width: 991.98px) {
-  .skills {
-    margin-top: 600px;
+  .services {
     margin-bottom: 150px;
     background: none;
   }
 }
 
-.skills .card {
+.services .card {
   margin-top: 60px;
   border-radius: 20px;
   -webkit-box-shadow: 0px 10px 30px 0px rgba(21, 10, 82, 0.2);
@@ -11130,24 +11128,24 @@ footer .footer-content ul li:last-child {
   transition: all 0.3s ease;
 }
 
-.skills .card:hover {
+.services .card:hover {
   -webkit-transform: scale(1.07);
           transform: scale(1.07);
 }
 
-.skills .card .card-body img {
+.services .card .card-body img {
   padding: 10px;
   max-width: 90px;
   margin-bottom: 10px;
 }
 
-.skills .card .card-body .skill-title {
+.services .card .card-body .skill-title {
   font-size: 22px;
   font-weight: bold;
   line-height: 35px;
 }
 
-.skills .card .card-body .skill-subtitle {
+.services .card .card-body .skill-subtitle {
   font-size: 15px;
   font-weight: normal;
   line-height: 28px;
@@ -11426,5 +11424,53 @@ footer .footer-content ul li:last-child {
 .show > .contact .btn-contact.dropdown-toggle:focus {
   -webkit-box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
           box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
+}
+
+.skills {
+  margin-top: 350px;
+}
+
+@media (max-width: 991.98px) {
+  .skills {
+    margin-top: 700px;
+  }
+}
+
+.skills .heading-text {
+  margin: 10px 0;
+}
+
+.skills .profesional {
+  margin-top: 100px;
+}
+
+@media (max-width: 991.98px) {
+  .skills .profesional {
+    margin-top: 50px;
+  }
+}
+
+.skills h4 {
+  font-size: 24px;
+}
+
+.skills .language {
+  margin-bottom: 20px;
+}
+
+.skills .section-language {
+  margin-top: 200px;
+}
+
+.skills .container-language {
+  margin-bottom: 40px;
+}
+
+.skills .container-language .language-image img {
+  max-height: 70px;
+}
+
+.skills .container-language .language-text {
+  font-size: 14px;
 }
 /*# sourceMappingURL=main.css.map */
