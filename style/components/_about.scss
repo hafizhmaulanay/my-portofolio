@@ -1,14 +1,24 @@
 .about {
-    background-color: #F5F5F5;
-    height: 350px;
+    background-image: url(/images/bg-2.svg);
+    background-size: 60%;
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    object-position: center;
 
-    @include media-breakpoint-down(md) {
-        img {
+    @include media-breakpoint-down(md){
+        background-size: cover;
+    }
+    
+    img {
+        @include media-breakpoint-down(md) {
             max-width: 300px;
         }
     }
-
     .card {
+        @include media-breakpoint-down(md){
+            margin-top: 40px;
+        }
         overflow: hidden;
         position: relative;
         z-index: 1;

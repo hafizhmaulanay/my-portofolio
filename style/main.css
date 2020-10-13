@@ -10837,7 +10837,7 @@ h5 {
 }
 
 .page-content {
-  margin-top: 150px;
+  margin-top: 120px;
 }
 
 @media (max-width: 991.98px) {
@@ -11016,6 +11016,7 @@ footer .footer-content ul li:last-child {
 
 .landing-page .social-media {
   margin-left: 40px;
+  margin-top: 60px;
 }
 
 @media (max-width: 991.98px) {
@@ -11039,8 +11040,20 @@ footer .footer-content ul li:last-child {
 }
 
 .about {
-  background-color: #F5F5F5;
-  height: 350px;
+  background-image: url(/images/bg-2.svg);
+  background-size: 60%;
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-repeat: no-repeat;
+  -o-object-position: center;
+     object-position: center;
+}
+
+@media (max-width: 991.98px) {
+  .about {
+    background-size: cover;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -11056,6 +11069,12 @@ footer .footer-content ul li:last-child {
   border-radius: 20px;
   -webkit-box-shadow: -6px -6px 20px white, 6px 6px 20px rgba(0, 0, 0, 0.1);
           box-shadow: -6px -6px 20px white, 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 991.98px) {
+  .about .card {
+    margin-top: 40px;
+  }
 }
 
 .about .card .card-body {
@@ -11354,7 +11373,7 @@ footer .footer-content ul li:last-child {
 }
 
 .contact {
-  margin-top: 450px;
+  margin-top: 650px;
 }
 
 @media (max-width: 991.98px) {
@@ -11432,7 +11451,7 @@ footer .footer-content ul li:last-child {
 
 @media (max-width: 991.98px) {
   .skills {
-    margin-top: 700px;
+    margin-top: 300px;
   }
 }
 
